@@ -30,4 +30,6 @@ router.put('/:id/follow' , userController.follow);
 
 //unfollow  
 
+router.put('/:id/unfollow' , userController.unfollow);
+
 module.exports = router;
